@@ -1,10 +1,10 @@
 #!/bin/bash
 
 
-# data_dir="data/DBP15K/zh_en" chemin vers le dossier du datasets
-# save="resultats_rdgcn/zh_en" chemin vers le dossier de sauvegarde des résultats
+# data_dir="data/EN_FR_100K" chemin vers le dossier du datasets
+# save="results_test/EN_FR_100K_frugrdgcn" chemin vers le dossier de sauvegarde des résultats
 
-python3 run.py  --log rdgcn_fast_test \
+python3 run.py  --log frugrdgcn_test \
                 --data_dir "./data/EN_FR_100K" \
                 --rate 0.2 \
                 --use_attr \
@@ -27,6 +27,6 @@ python3 run.py  --log rdgcn_fast_test \
                 --lr 0.001 \
                 --train_dist "manhattan" \
                 --test_dist "euclidean" \
-                --save "./results_test/EN_FR_100K_rdgcn_fast" \
+                --save "./results_test/EN_FR_100K_frugrdgcn" \
                 --patience 3 \
                 --use_fasttext
