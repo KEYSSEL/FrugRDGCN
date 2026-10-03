@@ -1,10 +1,10 @@
-# RDGCN-Fast: An Optimized Implementation of RDGCN for Entity Alignment
+# FrugRDGCN: An Optimized Implementation of RDGCN for Entity Alignment
 
 This repository contains an optimized and extended implementation of the **RDGCN (Relation-aware Dual-GAT)** model for entity alignment between knowledge graphs. This version includes several improvements to speed up training and enhance performance, notably semantic initialization and attribute integration.
 
 ## Features
 
-- **RDGCN-fast Model:** Implementation of the model using a dual GNN (primal and dual) to capture the structure of entities and relations.
+- **FrugRDGCN Model:** Implementation of the model using a dual GNN (primal and dual) to capture the structure of entities and relations.
 - **Semantic Initialization:** Use of **FastText** to initialize embeddings, thereby capturing the semantics and syntax of entities and attributes.
 - **Attribute Integration:** Ability to enrich entity representations with their textual attributes for richer embeddings.
 - **Advanced Negative Sampling:** Includes strategies like *Nearest-Neighbor Sampling* to generate more relevant and hard negative examples.
