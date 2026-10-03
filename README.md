@@ -78,10 +78,10 @@ The model expects a specific folder structure for datasets. Place your data in a
 
 ## Running Training
 
-The `run_RDGCN_fast.sh` script provides a complete example for launching an experiment. You can modify it or run `run.py` directly with your preferred arguments.
+The `run_FrugRDGCN.sh` script provides a complete example for launching an experiment. You can modify it or run `run.py` directly with your preferred arguments.
 
 ```bash
-./run_RDGCN_fast.sh
+./run_FrugRDGCN.sh
 ```
 
 ### Key Arguments
